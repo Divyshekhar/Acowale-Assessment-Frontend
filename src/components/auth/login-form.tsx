@@ -19,8 +19,8 @@ export function LoginForm() {
   } = useForm<LoginFormValues>({
     resolver: zodResolver(loginSchema),
     defaultValues: {
-      email: "admin@acowale.com",
-      password: "Admin@123456",
+      email: "",
+      password: "",
     },
   });
 
